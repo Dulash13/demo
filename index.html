@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pide Bien</title>
+        <meta name="description" content="">
+        <!--favicon-->
+        <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.min.js" rel="stylesheet">
+    </head>
+    <body>
+        <section class="hero">
+            <div class="pide pide1">
+                <img src="images/p1.png" alt="">
+            </div>
+
+            <div class="pide pide2">
+                <img src="images/p2.png" alt="">
+            </div>
+    
+            <div class="contenedor">
+                <div id="anim"></div>
+            </div>
+            
+        </section>
+        
+
+        <section class="wrapper">
+          
+          
+            <div class="content">
+              <header>
+                <h1>Suscribete</h1>
+              </header>
+              <section>
+                <p>
+                  Suscribete y enterate de su lanzamiento
+                </p>
+              </section>
+              <footer>
+                <input type="email" placeholder="Coloca tu email">
+                <button>Enviar</button>
+              </footer>
+            </div>
+        </section>
+        
+
+        <footer class="fmain">
+          <div class=" bton logo">
+            <img src="images/logo.png" alt="">
+          </div>
+          <div class="colum-central">
+            <div class="descarga">
+              <h4><a download="Terminos y condiciones" href="terms/Terminos y Condiciones de Uso del Servicio de PideBien (1) (1).docx">Términos y condiciones</a></h4>
+            </div>
+
+            <div class="descarga">
+              <h4><a download="Politicas de privacidad" href="terms/Politicas de Privacidad.docx">Politicas de privacidad</a></h4>
+            </div>
+            
+          </div>
+
+
+          <div class="librerias">
+            <div class=" bton android">
+              <img src="images/playstore.png" alt="">
+            </div>
+
+            <div class="bton ios">
+              <img src="images/ios.png" alt="">
+            </div>
+
+            <div class="bton huawei">
+              <img src="images/huawei.png" alt="">
+            </div>
+            
+          </div>
+          
+
+        </footer>
+
+        <script src="lottie.js"></script>
+        <script src="JS/script.js"></script>
+        <!--Gsap CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script>
+            gsap.fromTo( '.pide1', {x: '-30rem', opacity: 0},
+            {x: 0, opacity: 1, easy: 'back.out(0.3)', delay:1.9});
+
+            gsap.fromTo( '.pide2', {x: '35rem', opacity: 0},
+            {x: 0, opacity: 1, easy: 'back.out(0.1)', delay:2});
+
+
+        </script>
+    </body>
+</html>
