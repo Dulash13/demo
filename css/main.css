@@ -51,14 +51,14 @@ h3{
 
 
 
-h4 .pronto{
+.pronto{
   font-size: 15px;
   font-weight: 600;
   text-align: center;
   color: #fff;
 }
 
-h4 .disponible{
+.disponible{
   font-size: 12px;
   font-weight: 600;
   text-align: center;
@@ -401,7 +401,7 @@ ul{
 }
 
 ul .copy{
-  font-size: 15px;
+  font-size: 15px !important;
 }
 
 li a{
