@@ -58,7 +58,7 @@ h4 .pronto{
   color: #fff;
 }
 
-h4 .pronto2{
+h4 .disponible{
   font-size: 12px;
   font-weight: 600;
   text-align: center;
@@ -271,7 +271,7 @@ p{
   }
 
 .librerias{
-  float: right;+
+  float: right;
   text-align: center;
   position: absolute;
   bottom: 30px;
