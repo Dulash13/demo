@@ -40,14 +40,14 @@ h3{
   color: white;
 }
 .sale{
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 5px;
   font-weight: 800;
   color: white;
   position: absolute;
-  bottom: 25px;
+  bottom: 40px;
   right: 25px;
-  filter: drop-shadow(5px 10px 4px #000);
+  filter: drop-shadow(5px 3px 4px #4e4e4e);
 }
 
 h4{
