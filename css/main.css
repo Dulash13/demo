@@ -49,20 +49,16 @@ h3{
   right: 25px;
 }
 
-h4{
-  font-size: 12px;
-  font-weight: 600;
-  color: #fff;
-}
 
-.pronto{
+
+h4 .pronto{
   font-size: 15px;
   font-weight: 600;
   text-align: center;
   color: #fff;
 }
 
-.pronto{
+h4 .pronto2{
   font-size: 12px;
   font-weight: 600;
   text-align: center;
