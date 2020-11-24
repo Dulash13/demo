@@ -263,7 +263,6 @@ p{
 
 @media screen and (max-width: 600px) { 
   .librerias {
-    display: none;
   }
   .content{
     right: 0;
