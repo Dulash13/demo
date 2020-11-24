@@ -55,6 +55,21 @@ h4{
   color: #fff;
 }
 
+.pronto{
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+.pronto{
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+
 a:hover{
   color: #FC7941;
 }
