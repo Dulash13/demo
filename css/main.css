@@ -392,6 +392,7 @@ input:checked ~ label .hambu::before{
 input:checked ~ ul{
   opacity: 1;
   display: block;
+  transition: all 1s ease-in-out;
 }
 
 ul{
