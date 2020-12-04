@@ -391,6 +391,7 @@ input:checked ~ label .hambu::before{
 
 input:checked ~ ul{
   opacity: 1;
+  display: block;
 }
 
 ul{
@@ -402,6 +403,7 @@ ul{
   list-style: none;
   font-size: 20px;
   opacity: 0;
+  display: none;
   transition: .25 .1s cubic-bezier(0, 1.07, 0 , 1.02);
   z-index: 30;
 }
